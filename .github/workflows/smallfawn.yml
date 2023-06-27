@@ -24,7 +24,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync NobyDa-Script
+      - name: sync smallfawn-Script
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
